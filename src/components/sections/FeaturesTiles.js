@@ -3,6 +3,8 @@ import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
+import { FaFacebookSquare, FaInstagram, FaYoutube } from "react-icons/fa";
+
 
 const propTypes = {
   ...SectionTilesProps.types

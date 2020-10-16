@@ -1,5 +1,5 @@
 .hero {
-
+	// background: url(../../../../assets/images/mainPhoto.jpg);
 	.section-inner {
 		padding-top: $hero--padding-t__mobile;
 		padding-bottom: $hero--padding-b__mobile;
@@ -69,4 +69,18 @@
 			margin-top: $hero--inner-padding-v_desktop;
 		}
 	}
+}
+
+.appLogos {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.iconContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 50px;
 }
