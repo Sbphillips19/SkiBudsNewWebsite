@@ -19,16 +19,13 @@ const FooterNav = ({
     >
       <ul className="list-reset">
         <li>
-          <Link to="#0">Contact</Link>
+          <a href="mailto: powWowLLC1@gmail.com">Contact</a>
         </li>
         <li>
-          <Link to="#0">About us</Link>
+          <Link to="partners">Partners</Link>
         </li>
         <li>
-          <Link to="#0">FAQ's</Link>
-        </li>
-        <li>
-          <Link to="#0">Support</Link>
+          <a href="https://www.freeprivacypolicy.com/privacy/view/1cd8d9ff0862aec37bcbf6b855796d5f" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
         </li>
       </ul>
     </nav>

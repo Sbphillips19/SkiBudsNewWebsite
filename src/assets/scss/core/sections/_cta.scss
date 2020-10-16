@@ -35,3 +35,22 @@
 		}
 	}
 }
+
+.flex {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.flexRow {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+
+	@media (max-width: 600px) {
+		flex-direction: column;
+    }
+}

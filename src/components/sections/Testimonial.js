@@ -44,8 +44,8 @@ const Testimonial = ({
   );
 
   const sectionHeader = {
-    title: 'Customer testimonials',
-    paragraph: 'Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.'
+    title: 'App testimonials',
+    paragraph: 'Launched last season there were over 6600 users and over 350 daily active users before the season was cut short.'
   };
 
   return (
@@ -62,15 +62,15 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
+                    - I’ve had several meet ups through this app. Great format and pretty awesome how the developer will modify if you toss ideas their way. I’m looking forward to using this app again to find fellow shredders this winter. Keep up the good work!
                       </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Roman Level</span>
+                  <span className="testimonial-item-name text-color-high">-rickyhurtsyou</span>
                   <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
+                  {/* <span className="testimonial-item-link">
                     <a href="#0">AppName</a>
-                  </span>
+                  </span> */}
                 </div>
               </div>
             </div>
@@ -79,15 +79,15 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
+                    — Loving this app so far. Been using it mostly to chat with users about snow and wind conditions at the various Epic resorts. Highly recommend downloading.
                       </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Diana Rynzhuk</span>
+                  <span className="testimonial-item-name text-color-high">-Jtolle889</span>
                   <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
+                  {/* <span className="testimonial-item-link">
                     <a href="#0">AppName</a>
-                  </span>
+                  </span> */}
                 </div>
               </div>
             </div>
@@ -96,15 +96,15 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
+                    — I absolutely hate skiing alone and Ski Buds app and eliminated that problem for me. So fun! I’ve met great people, great riders, and have only had great experiences using this app.
                       </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Ben Stafford</span>
+                  <span className="testimonial-item-name text-color-high">- SkiScribe</span>
                   <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
+                  {/* <span className="testimonial-item-link">
                     <a href="#0">AppName</a>
-                  </span>
+                  </span> */}
                 </div>
               </div>
             </div>

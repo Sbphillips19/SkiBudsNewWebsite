@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
-import ButtonGroup from '../elements/ButtonGroup';
-import Button from '../elements/Button';
+// import ButtonGroup from '../elements/ButtonGroup';
+// import Button from '../elements/Button';
 import Image from '../elements/Image';
 // import Modal from '../elements/Modal';
 import MainPhoto from '../../assets/images/mainPhoto.jpg';
@@ -27,17 +27,17 @@ const Hero = ({
   ...props
 }) => {
 
-  const [videoModalActive, setVideomodalactive] = useState(false);
+  // const [videoModalActive, setVideomodalactive] = useState(false);
 
-  const openModal = (e) => {
-    e.preventDefault();
-    setVideomodalactive(true);
-  }
+  // const openModal = (e) => {
+  //   e.preventDefault();
+  //   setVideomodalactive(true);
+  // }
 
-  const closeModal = (e) => {
-    e.preventDefault();
-    setVideomodalactive(false);
-  }
+  // const closeModal = (e) => {
+  //   e.preventDefault();
+  //   setVideomodalactive(false);
+  // }
 
   const outerClasses = classNames(
     'hero section center-content',
@@ -122,9 +122,9 @@ const Hero = ({
             video="https://player.vimeo.com/video/174002812"
             videoTag="iframe" /> */}
           <div className="iconContainer">
-            <a href="https://www.facebook.com/SkiBuds-366071947329933/" class="icon" target="_blank"><FaFacebookSquare style={{ width: 50, marginRight: 20 }} color="#3b5998" /></a>
-            <a href="https://www.instagram.com/skibudsapp/" class="icon" target="_blank"><FaInstagram style={{ width: 50, marginRight: 20 }} color="white" /></a>
-            <a href="https://www.youtube.com/channel/UC1XZ1Vhgs-0lSJJjroAATlg" class="icon" target="_blank"><FaYoutube style={{ width: 50 }} color="#FF0000" /></a>
+            <a href="https://www.facebook.com/SkiBuds-366071947329933/" class="icon" target="_blank" rel="noopener noreferrer"><FaFacebookSquare style={{ width: 50, marginRight: 20 }} color="#3b5998" /></a>
+            <a href="https://www.instagram.com/skibudsapp/" class="icon" target="_blank" rel="noopener noreferrer"><FaInstagram style={{ width: 50, marginRight: 20 }} color="white" /></a>
+            <a href="https://www.youtube.com/channel/UC1XZ1Vhgs-0lSJJjroAATlg" class="icon" target="_blank" rel="noopener noreferrer"><FaYoutube style={{ width: 50 }} color="#FF0000" /></a>
           </div>
 
           <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">

@@ -1,0 +1,27 @@
+.imageSizing {
+    @media (min-width: 800px) {
+        width: 300px !important;
+        height: 100% !important;
+        margin-left: 100px !important;
+    }
+}
+
+.imageSizing2 {
+    @media (min-width: 800px) {
+        width: 500px !important;
+        height: 100% !important;
+        margin-left: 50px !important;
+    }
+}
+
+.imageSizingLogos {
+    max-width: 150px;
+    margin: 20px;
+}
+
+.imageSizingLogosBigger {
+    max-width: 200px;
+    margin: 20px;
+    width: 200px;
+    height: 100%;
+}

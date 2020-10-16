@@ -1,0 +1,33 @@
+.logo {
+    width: 100px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 150px;
+}
+
+.main2 {
+    background: url("../../../../assets/images/WhistlerPeakView.jpg");
+    /*    background-image: url('../images/WhistlerPeakView.jpg');*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+  }
+
+  .lead2 {
+    text-align: center;
+    color: white;
+  }
+
+  .ripatrip {
+    width: 200px
+  }
+
+  .containerAffiliates {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 500px;
+      margin: auto;
+  }
