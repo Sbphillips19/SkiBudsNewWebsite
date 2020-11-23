@@ -85,7 +85,7 @@ const Hero = ({
                         src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' /></a>
                   </div>
                 </div>
-                Download Now to find people to ride with, get lift status notifications, and get up to date mountain information
+                Download Now to find people to ride with, get lift status notifications, and get up to date mountain information with photo stories at every resort
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 {/* <ButtonGroup>

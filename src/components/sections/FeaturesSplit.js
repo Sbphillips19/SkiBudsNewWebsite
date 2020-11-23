@@ -129,13 +129,16 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  New This Season
+                  2021
                   </div>
                 <h3 className="mt-0 mb-12">
                   SkiBuds Events
                   </h3>
                 <p className="m-0">
                   We are working harder than ever to make events for users in cities around the US.  From BBQ's, Corn Hole Tournaments, to bar specials we will be working to help users find others connect and have the best mountain experience
+                  <br />
+                  <br />
+                  Due to current conditions we will be postponing this feature to next season.
                   <br />
                   <br />
                   Any connections to new Bars and Breweries is appreciated.  Also looking for ambassadors across the country.  Please reach out to PowWowLLC1@gmail.com for more information
